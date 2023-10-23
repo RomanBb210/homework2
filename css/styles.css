@@ -1,0 +1,96 @@
+:root {
+    --primary-text-color :#757575;
+    --color-white :#ffffff;
+    --color-black :#000000;
+    --title-text-color :#212121;
+    --accent-color :#2196F3;
+    --team-color :#F5F4FA;
+    --footer-color :#2F303A;
+}
+
+body{
+    color: var(--color-black);
+    background-color: var(--color-white);
+}
+
+/* header page / index.html */
+
+a{
+    color: var(--color-black);
+}
+.header .header-logo:hover,
+.header .link:hover,
+.header .contact:hover{
+    color: var(--accent-color);
+}
+.header .contact,
+.advanced-text,
+.team .text{
+    color: var(--primary-text-color);
+}
+.link-list,
+.contacts-list,
+.advanced-list,
+.photo-list,
+.team-list,
+.clients-list{
+    list-style: none;
+}
+
+/* main */
+
+.main .button{
+    color: var(--color-white);
+    background-color: var(--accent-color);
+}
+.advanced-title,
+.photo-title,
+.team-title,
+.clients-title{
+    color: var(--title-text-color);
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--footer-color);
+}
+.footer .footer-logo{
+    color: var(--accent-color)
+}
+.footer .link,
+.join-title{
+    color: var(--color-white);
+}
+.footer .contact{
+    color: var(--primary-text-color);
+}
+.footer .address-list,
+.join-list{
+    list-style: none;
+}
+.footer .link:hover,
+.footer .contact:hover{
+    color: var(--accent-color);
+}
+
+
+/* porfolio page / portfolio.html */
+
+.buttons-list,
+.projects-list{
+    list-style: none;
+}
+.buttons .button:hover{
+    color: var(--color-white);
+    background-color: var(--accent-color);
+}
+.buttons-list .button{
+    color: var(--title-text-color);
+}
+.project-title{
+    color: var(--title-text-color);
+}
+.project-text{
+    color: var(--primary-text-color);
+}
